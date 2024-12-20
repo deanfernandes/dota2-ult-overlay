@@ -9,29 +9,29 @@
              mc:Ignorable="d" 
              Height="72" Width="188" d:DataContext="{d:DesignInstance Type=vm:HeroUltViewModel, IsDesignTimeCreatable=False}">
     <UserControl.Resources>
-        <local:BoolVisibilityConverter x:Key="BoolVisibilityConverter" />
-        <local:BooleanInverterConverter x:Key="BooleanInverterConverter" />
+        <local:BoolVisibilityConverter x:Key="BoolVisibilityConverter"/>
+        <local:BooleanInverterConverter x:Key="BooleanInverterConverter"/>
     </UserControl.Resources>
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
         <Image Source="{Binding HeroImagePath}" Width="128" Height="72" Margin="0 0 10 0"/>
 
-        <Image Name="UltImage" Grid.Column="1" Source="{Binding UltImagePath}" IsEnabled="{Binding OnCooldown, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave" >
+        <Image Name="UltImage" Grid.Column="1" Source="{Binding UltImagePath}" IsEnabled="{Binding OnCooldown, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave">
             <i:Interaction.Triggers>
                 <i:EventTrigger EventName="MouseLeftButtonDown">
-                    <i:InvokeCommandAction Command="{Binding StartCooldownCommand}" />
+                    <i:InvokeCommandAction Command="{Binding StartCooldownCommand}"/>
                 </i:EventTrigger>
             </i:Interaction.Triggers>
         </Image>
-        <Rectangle Name="UltRectangle" Grid.Column="1" Opacity="0.7" Visibility="Collapsed" IsHitTestVisible="False" Width="{Binding ActualWidth, ElementName=UltImage}" Height="{Binding ActualHeight, ElementName=UltImage}" >
+        <Rectangle Name="UltRectangle" Grid.Column="1" Opacity="0.7" Visibility="Collapsed" IsHitTestVisible="False" Width="{Binding ActualWidth, ElementName=UltImage}" Height="{Binding ActualHeight, ElementName=UltImage}">
             <Rectangle.Fill>
-                <SolidColorBrush Color="Black" />
+                <SolidColorBrush Color="Black"/>
             </Rectangle.Fill>
         </Rectangle>
-        <Label Grid.Column="1" Content="{Binding Hero.Ult.Timer.TimeRemaining}" Visibility="{Binding OnCooldown, Converter={StaticResource BoolVisibilityConverter}}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="White" />
+        <Label Grid.Column="1" Content="{Binding Hero.Ult.Timer.TimeRemaining}" Visibility="{Binding OnCooldown, Converter={StaticResource BoolVisibilityConverter}}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="White"/>
     </Grid>
 </UserControl>
