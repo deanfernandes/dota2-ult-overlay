@@ -2,7 +2,7 @@
 using System.Windows;
 using System.Windows.Data;
 
-namespace deanfernandes.dota2_ult_overlay.Views
+namespace DeanFernandes.Dota2UltOverlay.Views
 {
     [ValueConversion(typeof(bool), typeof(Visibility))]
     public class BooleanInverterConverter : IValueConverter

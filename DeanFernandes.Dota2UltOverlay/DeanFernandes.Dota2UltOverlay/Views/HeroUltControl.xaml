@@ -1,11 +1,11 @@
-﻿<UserControl x:Class="deanfernandes.dota2_ult_overlay.Views.HeroUltControl"
+﻿<UserControl x:Class="DeanFernandes.Dota2UltOverlay.Views.HeroUltControl"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:deanfernandes.dota2_ult_overlay.Views"
-             xmlns:vm="clr-namespace:deanfernandes.dota2_ult_overlay.ViewModels"
+             xmlns:local="clr-namespace:DeanFernandes.Dota2UltOverlay.Views"
+             xmlns:vm="clr-namespace:DeanFernandes.Dota2UltOverlay.ViewModels"
              mc:Ignorable="d" 
              Height="72" Width="188" d:DataContext="{d:DesignInstance Type=vm:HeroUltViewModel, IsDesignTimeCreatable=False}">
     <UserControl.Resources>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace deanfernandes.dota2_ult_overlay.Models
+namespace DeanFernandes.Dota2UltOverlay.Models
 {
     class Ultimate
     {

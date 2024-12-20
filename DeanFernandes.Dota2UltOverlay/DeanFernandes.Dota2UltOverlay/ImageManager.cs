@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace deanfernandes.dota2_ult_overlay
+namespace DeanFernandes.Dota2UltOverlay
 {
     class ImageManager
     {

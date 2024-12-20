@@ -12,10 +12,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using deanfernandes.dota2_ult_overlay.Models;
-using deanfernandes.dota2_ult_overlay.ViewModels;
+using DeanFernandes.Dota2UltOverlay.Models;
+using DeanFernandes.Dota2UltOverlay.ViewModels;
 
-namespace deanfernandes.dota2_ult_overlay.Views
+namespace DeanFernandes.Dota2UltOverlay.Views
 {
     /// <summary>
     /// Interaction logic for HeroUltControl.xaml

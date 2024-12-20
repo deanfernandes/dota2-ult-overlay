@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace deanfernandes.dota2_ult_overlay
+namespace DeanFernandes.Dota2UltOverlay
 {
     /// <summary>
     /// Interaction logic for App.xaml

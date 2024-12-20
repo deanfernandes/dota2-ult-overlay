@@ -1,6 +1,6 @@
 ﻿using System.Timers;
 
-namespace deanfernandes.dota2_ult_overlay.ViewModels
+namespace DeanFernandes.Dota2UltOverlay.ViewModels
 {
     using Models;
     using System.ComponentModel;

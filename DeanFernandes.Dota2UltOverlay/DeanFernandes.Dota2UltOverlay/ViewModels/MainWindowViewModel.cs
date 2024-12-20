@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace deanfernandes.dota2_ult_overlay.ViewModels
+namespace DeanFernandes.Dota2UltOverlay.ViewModels
 {
     class MainWindowViewModel
     {

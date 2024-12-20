@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace deanfernandes.dota2_ult_overlay
+namespace DeanFernandes.Dota2UltOverlay
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

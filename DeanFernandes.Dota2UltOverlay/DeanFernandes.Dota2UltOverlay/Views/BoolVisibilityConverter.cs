@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Data;
 using System.Windows;
 
-namespace deanfernandes.dota2_ult_overlay.Views
+namespace DeanFernandes.Dota2UltOverlay.Views
 {
     [ValueConversion(typeof(bool), typeof(Visibility))]
     public class BoolVisibilityConverter : IValueConverter

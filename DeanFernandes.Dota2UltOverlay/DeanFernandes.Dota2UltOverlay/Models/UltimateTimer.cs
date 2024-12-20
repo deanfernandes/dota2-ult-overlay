@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 
-namespace deanfernandes.dota2_ult_overlay.Models
+namespace DeanFernandes.Dota2UltOverlay.Models
 {
     class UltimateTimer : INotifyPropertyChanged
     {
