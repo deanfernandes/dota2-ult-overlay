@@ -1,4 +1,6 @@
-﻿namespace deanfernandes.dota2_ult_overlay
+﻿using System.Text;
+
+namespace deanfernandes.dota2_ult_overlay
 {
     class ImageManager
     {
@@ -7,12 +9,22 @@
 
         public static string GetHeroImagePath(string heroName)
         {
-            return HeroImageDir + heroName.ToLower() + ".png";
+            StringBuilder builder = new StringBuilder();
+            builder.Append(HeroImageDir);
+            builder.Append(heroName.ToLower());
+            builder.Append(".png");
+            return builder.ToString();
         }
 
         public static string GetHeroUltimateImagePath(string heroName, string ultName)
         {
-            return HeroUltImageDir + heroName.ToLower() + "_" + ultName.ToLower() + ".png";
+            StringBuilder builder = new StringBuilder();
+            builder.Append(HeroUltImageDir);
+            builder.Append(heroName.ToLower());
+            builder.Append("_");
+            builder.Append(ultName.ToLower());
+            builder.Append(".png");
+            return builder.ToString();
         }
     }
 }
