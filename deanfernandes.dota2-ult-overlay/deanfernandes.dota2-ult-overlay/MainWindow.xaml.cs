@@ -19,6 +19,8 @@ namespace deanfernandes.dota2_ult_overlay
         public MainWindow()
         {
             InitializeComponent();
+
+            DataContext = new ViewModels.MainWindowViewModel();
         }
     }
 }
