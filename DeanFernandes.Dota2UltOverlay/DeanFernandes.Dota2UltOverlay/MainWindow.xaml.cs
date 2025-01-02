@@ -1,4 +1,8 @@
-﻿using System.Windows;
+﻿using Emgu.CV.Features2D;
+using System.Diagnostics;
+using System.IO;
+using System.Windows;
+using static Emgu.CV.OCR.Tesseract;
 
 namespace DeanFernandes.Dota2UltOverlay
 {

@@ -274,130 +274,378 @@
 
   <ItemGroup>
     <Resource Include="Resources\icon.ico" />
-    <Resource Include="Resources\Images\Heroes\abaddon.png" />
-    <Resource Include="Resources\Images\Heroes\abyssal_underlord.png" />
-    <Resource Include="Resources\Images\Heroes\alchemist.png" />
-    <Resource Include="Resources\Images\Heroes\ancient_apparition.png" />
-    <Resource Include="Resources\Images\Heroes\antimage.png" />
-    <Resource Include="Resources\Images\Heroes\arc_warden.png" />
-    <Resource Include="Resources\Images\Heroes\axe.png" />
-    <Resource Include="Resources\Images\Heroes\bane.png" />
-    <Resource Include="Resources\Images\Heroes\batrider.png" />
-    <Resource Include="Resources\Images\Heroes\beastmaster.png" />
-    <Resource Include="Resources\Images\Heroes\bloodseeker.png" />
-    <Resource Include="Resources\Images\Heroes\bounty_hunter.png" />
-    <Resource Include="Resources\Images\Heroes\brewmaster.png" />
-    <Resource Include="Resources\Images\Heroes\bristleback.png" />
-    <Resource Include="Resources\Images\Heroes\broodmother.png" />
-    <Resource Include="Resources\Images\Heroes\centaur.png" />
-    <Resource Include="Resources\Images\Heroes\chaos_knight.png" />
-    <Resource Include="Resources\Images\Heroes\chen.png" />
-    <Resource Include="Resources\Images\Heroes\clinkz.png" />
-    <Resource Include="Resources\Images\Heroes\crystal_maiden.png" />
-    <Resource Include="Resources\Images\Heroes\dark_seer.png" />
-    <Resource Include="Resources\Images\Heroes\dark_willow.png" />
-    <Resource Include="Resources\Images\Heroes\dawnbreaker.png" />
-    <Resource Include="Resources\Images\Heroes\dazzle.png" />
-    <Resource Include="Resources\Images\Heroes\death_prophet.png" />
-    <Resource Include="Resources\Images\Heroes\disruptor.png" />
-    <Resource Include="Resources\Images\Heroes\doom_bringer.png" />
-    <Resource Include="Resources\Images\Heroes\dragon_knight.png" />
-    <Resource Include="Resources\Images\Heroes\drow_ranger.png" />
-    <Resource Include="Resources\Images\Heroes\earthshaker.png" />
-    <Resource Include="Resources\Images\Heroes\earth_spirit.png" />
-    <Resource Include="Resources\Images\Heroes\elder_titan.png" />
-    <Resource Include="Resources\Images\Heroes\ember_spirit.png" />
-    <Resource Include="Resources\Images\Heroes\enchantress.png" />
-    <Resource Include="Resources\Images\Heroes\enigma.png" />
-    <Resource Include="Resources\Images\Heroes\faceless_void.png" />
-    <Resource Include="Resources\Images\Heroes\furion.png" />
-    <Resource Include="Resources\Images\Heroes\grimstroke.png" />
-    <Resource Include="Resources\Images\Heroes\gyrocopter.png" />
-    <Resource Include="Resources\Images\Heroes\hoodwink.png" />
-    <Resource Include="Resources\Images\Heroes\huskar.png" />
-    <Resource Include="Resources\Images\Heroes\invoker.png" />
-    <Resource Include="Resources\Images\Heroes\jakiro.png" />
-    <Resource Include="Resources\Images\Heroes\juggernaut.png" />
-    <Resource Include="Resources\Images\Heroes\keeper_of_the_light.png" />
-    <Resource Include="Resources\Images\Heroes\kunkka.png" />
-    <Resource Include="Resources\Images\Heroes\legion_commander.png" />
-    <Resource Include="Resources\Images\Heroes\leshrac.png" />
-    <Resource Include="Resources\Images\Heroes\lich.png" />
-    <Resource Include="Resources\Images\Heroes\life_stealer.png" />
-    <Resource Include="Resources\Images\Heroes\lina.png" />
-    <Resource Include="Resources\Images\Heroes\lion.png" />
-    <Resource Include="Resources\Images\Heroes\lone_druid.png" />
-    <Resource Include="Resources\Images\Heroes\luna.png" />
-    <Resource Include="Resources\Images\Heroes\lycan.png" />
-    <Resource Include="Resources\Images\Heroes\magnataur.png" />
-    <Resource Include="Resources\Images\Heroes\marci.png" />
-    <Resource Include="Resources\Images\Heroes\mars.png" />
-    <Resource Include="Resources\Images\Heroes\medusa.png" />
-    <Resource Include="Resources\Images\Heroes\meepo.png" />
-    <Resource Include="Resources\Images\Heroes\mirana.png" />
-    <Resource Include="Resources\Images\Heroes\monkey_king.png" />
-    <Resource Include="Resources\Images\Heroes\morphling.png" />
-    <Resource Include="Resources\Images\Heroes\muerta.png" />
-    <Resource Include="Resources\Images\Heroes\naga_siren.png" />
-    <Resource Include="Resources\Images\Heroes\necrolyte.png" />
-    <Resource Include="Resources\Images\Heroes\nevermore.png" />
-    <Resource Include="Resources\Images\Heroes\night_stalker.png" />
-    <Resource Include="Resources\Images\Heroes\nyx_assassin.png" />
-    <Resource Include="Resources\Images\Heroes\obsidian_destroyer.png" />
-    <Resource Include="Resources\Images\Heroes\ogre_magi.png" />
-    <Resource Include="Resources\Images\Heroes\omniknight.png" />
-    <Resource Include="Resources\Images\Heroes\oracle.png" />
-    <Resource Include="Resources\Images\Heroes\pangolier.png" />
-    <Resource Include="Resources\Images\Heroes\phantom_assassin.png" />
-    <Resource Include="Resources\Images\Heroes\phantom_lancer.png" />
-    <Resource Include="Resources\Images\Heroes\phoenix.png" />
-    <Resource Include="Resources\Images\Heroes\primal_beast.png" />
-    <Resource Include="Resources\Images\Heroes\puck.png" />
-    <Resource Include="Resources\Images\Heroes\pudge.png" />
-    <Resource Include="Resources\Images\Heroes\pugna.png" />
-    <Resource Include="Resources\Images\Heroes\queenofpain.png" />
-    <Resource Include="Resources\Images\Heroes\rattletrap.png" />
-    <Resource Include="Resources\Images\Heroes\razor.png" />
-    <Resource Include="Resources\Images\Heroes\riki.png" />
-    <Resource Include="Resources\Images\Heroes\rubick.png" />
-    <Resource Include="Resources\Images\Heroes\sand_king.png" />
-    <Resource Include="Resources\Images\Heroes\shadow_demon.png" />
-    <Resource Include="Resources\Images\Heroes\shadow_shaman.png" />
-    <Resource Include="Resources\Images\Heroes\shredder.png" />
-    <Resource Include="Resources\Images\Heroes\silencer.png" />
-    <Resource Include="Resources\Images\Heroes\skeleton_king.png" />
-    <Resource Include="Resources\Images\Heroes\skywrath_mage.png" />
-    <Resource Include="Resources\Images\Heroes\slardar.png" />
-    <Resource Include="Resources\Images\Heroes\slark.png" />
-    <Resource Include="Resources\Images\Heroes\snapfire.png" />
-    <Resource Include="Resources\Images\Heroes\sniper.png" />
-    <Resource Include="Resources\Images\Heroes\spectre.png" />
-    <Resource Include="Resources\Images\Heroes\spirit_breaker.png" />
-    <Resource Include="Resources\Images\Heroes\storm_spirit.png" />
-    <Resource Include="Resources\Images\Heroes\sven.png" />
-    <Resource Include="Resources\Images\Heroes\techies.png" />
-    <Resource Include="Resources\Images\Heroes\templar_assassin.png" />
-    <Resource Include="Resources\Images\Heroes\terrorblade.png" />
-    <Resource Include="Resources\Images\Heroes\tidehunter.png" />
-    <Resource Include="Resources\Images\Heroes\tinker.png" />
-    <Resource Include="Resources\Images\Heroes\tiny.png" />
-    <Resource Include="Resources\Images\Heroes\treant.png" />
-    <Resource Include="Resources\Images\Heroes\troll_warlord.png" />
-    <Resource Include="Resources\Images\Heroes\tusk.png" />
-    <Resource Include="Resources\Images\Heroes\undying.png" />
-    <Resource Include="Resources\Images\Heroes\ursa.png" />
-    <Resource Include="Resources\Images\Heroes\vengefulspirit.png" />
-    <Resource Include="Resources\Images\Heroes\venomancer.png" />
-    <Resource Include="Resources\Images\Heroes\viper.png" />
-    <Resource Include="Resources\Images\Heroes\visage.png" />
-    <Resource Include="Resources\Images\Heroes\void_spirit.png" />
-    <Resource Include="Resources\Images\Heroes\warlock.png" />
-    <Resource Include="Resources\Images\Heroes\weaver.png" />
-    <Resource Include="Resources\Images\Heroes\windrunner.png" />
-    <Resource Include="Resources\Images\Heroes\winter_wyvern.png" />
-    <Resource Include="Resources\Images\Heroes\wisp.png" />
-    <Resource Include="Resources\Images\Heroes\witch_doctor.png" />
-    <Resource Include="Resources\Images\Heroes\zuus.png" />
+    <Content Include="Resources\Images\Heroes\abaddon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\abyssal_underlord.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\alchemist.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\ancient_apparition.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\antimage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\arc_warden.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\axe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\bane.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\batrider.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\beastmaster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\bloodseeker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\bounty_hunter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\brewmaster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\bristleback.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\broodmother.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\centaur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\chaos_knight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\chen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\clinkz.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\crystal_maiden.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\dark_seer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\dark_willow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\dawnbreaker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\dazzle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\death_prophet.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\disruptor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\doom_bringer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\dragon_knight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\drow_ranger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\earthshaker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\earth_spirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\elder_titan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\ember_spirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\enchantress.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\enigma.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\faceless_void.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\furion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\grimstroke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\gyrocopter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\hoodwink.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\huskar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\invoker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\jakiro.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\juggernaut.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\keeper_of_the_light.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\kunkka.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\legion_commander.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\leshrac.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\lich.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\life_stealer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\lina.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\lion.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\lone_druid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\luna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\lycan.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\magnataur.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\marci.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\mars.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\medusa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\meepo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\mirana.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\monkey_king.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\morphling.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\muerta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\naga_siren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\necrolyte.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\nevermore.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\night_stalker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\nyx_assassin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\obsidian_destroyer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\ogre_magi.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\omniknight.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\oracle.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\pangolier.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\phantom_assassin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\phantom_lancer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\phoenix.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\primal_beast.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\puck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\pudge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\pugna.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\queenofpain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\rattletrap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\razor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\riki.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\rubick.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\sand_king.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\shadow_demon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\shadow_shaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\shredder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\silencer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\skeleton_king.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\skywrath_mage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\slardar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\slark.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\snapfire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\sniper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\spectre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\spirit_breaker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\storm_spirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\sven.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\techies.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\templar_assassin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\terrorblade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\tidehunter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\tinker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\tiny.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\treant.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\troll_warlord.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\tusk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\undying.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\ursa.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\vengefulspirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\venomancer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\viper.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\visage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\void_spirit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\warlock.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\weaver.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\windrunner.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\winter_wyvern.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\wisp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\witch_doctor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\zuus.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Resource Include="Resources\Images\Ultimates\abaddon_borrowed_time.png" />
     <Resource Include="Resources\Images\Ultimates\abyssal_underlord_dark_portal.png" />
     <Resource Include="Resources\Images\Ultimates\alchemist_chemical_rage.png" />
