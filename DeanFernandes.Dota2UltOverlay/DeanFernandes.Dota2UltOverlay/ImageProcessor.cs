@@ -27,7 +27,7 @@ namespace DeanFernandes.Dota2UltOverlay
                 Mat result = new Mat();
                 CvInvoke.MatchTemplate(image, resizedTemplate, result, TemplateMatchingType.CcoeffNormed);
 
-                double minVal = 0, maxVal = 0;
+                double minVal = 0D, maxVal = 0D;
                 Point minLoc = default, maxLoc = default;
                 CvInvoke.MinMaxLoc(result, ref minVal, ref maxVal, ref minLoc, ref maxLoc);
 
@@ -44,7 +44,7 @@ namespace DeanFernandes.Dota2UltOverlay
             return false;
         }
 
-        private static void Preprocess(Mat image, Mat template)
+        private static void Preprocess(ref Mat image, ref Mat template)
         {
             CvInvoke.CvtColor(image, image, ColorConversion.Bgr2Gray);
             CvInvoke.CvtColor(template, template, ColorConversion.Bgr2Gray);
