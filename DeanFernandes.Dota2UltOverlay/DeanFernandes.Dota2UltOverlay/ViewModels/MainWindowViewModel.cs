@@ -1,9 +1,9 @@
-﻿using System.Collections.ObjectModel;
+﻿using NLog;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Runtime.CompilerServices;
-using System.Windows.Input;
 
 namespace DeanFernandes.Dota2UltOverlay.ViewModels
 {
@@ -32,6 +32,8 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
             }
         }
 
+        private static readonly ILogger logger = LogManager.GetCurrentClassLogger();
+
         public MainWindowViewModel()
         {
             HeroUltViewModels = new ObservableCollection<HeroUltViewModel>();
@@ -41,6 +43,11 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
 
         private void PopulateHeroes()
         {
+#if DEBUG
+            logger.Debug("function PopulateHeroes started");
+            var stopwatch = Stopwatch.StartNew();
+#endif
+
             ScreenCapture.SaveBitmapToFilePng(ScreenCapture.CaptureScreenBitmap(), "screenshot");
 
             string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), @"Resources\Images\Heroes\");
@@ -54,18 +61,21 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
 
                     if (match)
                     {
-                        Debug.WriteLine($"match: {Path.GetFileName(file)}");
-
                         HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(Path.GetFileNameWithoutExtension(file), new Models.Ultimate("freezing_field", 90))));
                     }
                 }
             }
             catch (DirectoryNotFoundException ex)
             {
+                logger.Error($"Directory not found: {ex.Message}");
+
                 Debug.WriteLine($"Directory not found: {ex.Message}");
             }
 
-            Debug.WriteLine("finished PopulateHeroes");
+#if DEBUG
+            stopwatch.Stop();
+            logger.Debug($"function PopulateHeroes finished: {stopwatch.ElapsedMilliseconds}ms");
+#endif
         }
     }
 }

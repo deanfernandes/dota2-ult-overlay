@@ -1,12 +1,16 @@
 ﻿using Emgu.CV;
 using Emgu.CV.CvEnum;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 
 namespace DeanFernandes.Dota2UltOverlay
 {
     public static class ImageProcessor
     {
         private const double MatchThreshold = .75, MinScale = .25, MaxScale = .5, ScaleStep = .25;
+
+        private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public static bool PerformTemplateMatch(string imagePath, string templatePath)
         {
             using Mat image = CvInvoke.Imread(imagePath, ImreadModes.Color);
@@ -29,6 +33,10 @@ namespace DeanFernandes.Dota2UltOverlay
 
                 if (maxVal >= MatchThreshold)
                 {
+                    Logger.Info($"match: {Path.GetFileName(templatePath)}, confidence: {maxVal}, scale: {scale}, width: {newWidth}, height: {newHeight}");
+
+                    Debug.WriteLine($"match: {Path.GetFileName(templatePath)}, confidence: {maxVal}, scale: {scale}, width: {newWidth}, height: {newHeight}");
+
                     return true;
                 }
             }

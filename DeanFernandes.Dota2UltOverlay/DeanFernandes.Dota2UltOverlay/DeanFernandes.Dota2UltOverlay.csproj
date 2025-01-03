@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="C:\Users\work\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
     <None Remove="Resources\Images\Heroes\abaddon.png" />
     <None Remove="Resources\Images\Heroes\abyssal_underlord.png" />
     <None Remove="Resources\Images\Heroes\alchemist.png" />
@@ -269,6 +270,8 @@
     <PackageReference Include="Emgu.CV" Version="4.9.0.5494" />
     <PackageReference Include="Emgu.CV.runtime.windows" Version="4.9.0.5494" />
     <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.135" />
+    <PackageReference Include="NLog" Version="5.3.4" />
+    <PackageReference Include="NLog.Config" Version="4.7.15" />
     <PackageReference Include="System.Drawing.Common" Version="9.0.0" />
   </ItemGroup>
 
@@ -770,6 +773,12 @@
     <Resource Include="Resources\Images\Ultimates\wisp_relocate.png" />
     <Resource Include="Resources\Images\Ultimates\witch_doctor_death_ward.png" />
     <Resource Include="Resources\Images\Ultimates\zuus_thundergods_wrath.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
