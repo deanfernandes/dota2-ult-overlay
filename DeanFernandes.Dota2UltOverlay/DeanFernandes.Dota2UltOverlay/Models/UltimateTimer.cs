@@ -33,7 +33,7 @@ namespace DeanFernandes.Dota2UltOverlay.Models
             _timer.Interval = TimeSpan.FromSeconds(1);
             _timer.Tick += Timer_Tick;
         }
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object? sender, EventArgs e)
         {
             TimeRemaining--;
 
