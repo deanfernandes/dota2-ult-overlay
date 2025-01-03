@@ -36,7 +36,7 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
 
         public MainWindowViewModel()
         {
-            HeroUltViewModels = new ObservableCollection<HeroUltViewModel>();
+            _heroUltViewModels = new ObservableCollection<HeroUltViewModel>();
 
             PopulateHeroes();
         }
@@ -61,7 +61,7 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
 
                     if (match)
                     {
-                        HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(Path.GetFileNameWithoutExtension(file), new Models.Ultimate("freezing_field", 90))));
+                        HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(Path.GetFileNameWithoutExtension(file), new Models.Ultimate("death_ward", 100))));
                     }
                 }
             }

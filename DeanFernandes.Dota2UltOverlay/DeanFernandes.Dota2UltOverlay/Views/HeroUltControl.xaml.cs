@@ -36,5 +36,13 @@ namespace DeanFernandes.Dota2UltOverlay.Views
         {
             UltRectangle.Visibility = Visibility.Collapsed;
         }
+
+        private void UltImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (DataContext is ViewModels.HeroUltViewModel viewModel && viewModel.StartCooldownCommand.CanExecute(null))
+            {
+                viewModel.StartCooldownCommand.Execute(null);
+            }
+        }
     }
 }

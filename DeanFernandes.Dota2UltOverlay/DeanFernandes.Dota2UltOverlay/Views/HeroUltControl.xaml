@@ -20,13 +20,7 @@
 
         <Image Source="{Binding HeroImagePath}" Width="128" Height="72" Margin="0 0 10 0"/>
 
-        <Image Name="UltImage" Grid.Column="1" Source="{Binding UltImagePath}" IsEnabled="{Binding OnCooldown, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave">
-            <i:Interaction.Triggers>
-                <i:EventTrigger EventName="MouseLeftButtonDown">
-                    <i:InvokeCommandAction Command="{Binding StartCooldownCommand}"/>
-                </i:EventTrigger>
-            </i:Interaction.Triggers>
-        </Image>
+        <Image Name="UltImage" Grid.Column="1" Source="{Binding UltImagePath}" IsEnabled="{Binding OnCooldown, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave" MouseLeftButtonDown="UltImage_MouseLeftButtonDown" Cursor="Hand"/>
         <Rectangle Name="UltRectangle" Grid.Column="1" Opacity="0.7" Visibility="Collapsed" IsHitTestVisible="False" Width="{Binding ActualWidth, ElementName=UltImage}" Height="{Binding ActualHeight, ElementName=UltImage}">
             <Rectangle.Fill>
                 <SolidColorBrush Color="Black"/>
