@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanFernandes.Dota2UltOverlay", "DeanFernandes.Dota2UltOverlay\DeanFernandes.Dota2UltOverlay.csproj", "{02CA7C52-9DF9-400A-A47A-8D3F6029E27B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeanFernandes.Dota2UltOverlay.Tests", "DeanFernandes.Dota2UltOverlay.Tests\DeanFernandes.Dota2UltOverlay.Tests.csproj", "{F01E8E69-3585-4F13-A2AF-DD291716400B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{02CA7C52-9DF9-400A-A47A-8D3F6029E27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02CA7C52-9DF9-400A-A47A-8D3F6029E27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02CA7C52-9DF9-400A-A47A-8D3F6029E27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F01E8E69-3585-4F13-A2AF-DD291716400B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F01E8E69-3585-4F13-A2AF-DD291716400B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F01E8E69-3585-4F13-A2AF-DD291716400B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F01E8E69-3585-4F13-A2AF-DD291716400B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
