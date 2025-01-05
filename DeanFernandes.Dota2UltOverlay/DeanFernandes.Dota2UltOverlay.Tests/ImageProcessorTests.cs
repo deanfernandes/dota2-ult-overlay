@@ -62,5 +62,38 @@
             // Act & Assert
             Assert.ThrowsException<ArgumentException>(() => ImageProcessor.PerformTemplateMatch(imagePath, templatePath));
         }
+
+        [TestMethod]
+        public void PerformTemplateMatch_ImagePathDoesntExist_ThrowsArgumentException()
+        {
+            // Arrange
+            string imagePath = @"Resources\Images\Champions\ahri.png";
+            string templatePath = @"Resources\Images\Heroes\abaddon.png";
+
+            // Act & Assert
+            Assert.ThrowsException<ArgumentException>(() => ImageProcessor.PerformTemplateMatch(imagePath, templatePath));
+        }
+
+        [TestMethod]
+        public void PerformTemplateMatch_TemplatePathDoesntExist_ThrowsArgumentException()
+        {
+            // Arrange
+            string imagePath = @"Resources\Images\Heroes\abaddon.png";
+            string templatePath = @"Resources\Images\Champions\ahri.png";
+
+            // Act & Assert
+            Assert.ThrowsException<ArgumentException>(() => ImageProcessor.PerformTemplateMatch(imagePath, templatePath));
+        }
+
+        [TestMethod]
+        public void PerformTemplateMatch_PathsDontExist_ThrowsArgumentException()
+        {
+            // Arrange
+            string imagePath = @"Resources\Images\Champions\aatrox.png";
+            string templatePath = @"Resources\Images\Champions\ahri.png";
+
+            // Act & Assert
+            Assert.ThrowsException<ArgumentException>(() => ImageProcessor.PerformTemplateMatch(imagePath, templatePath));
+        }
     }
 }
