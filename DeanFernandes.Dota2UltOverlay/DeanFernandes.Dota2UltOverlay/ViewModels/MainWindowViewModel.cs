@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using DeanFernandes.Dota2UltOverlay.Models;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -33,18 +34,14 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
         {
             _heroUltViewModels = new ObservableCollection<HeroUltViewModel>();
 
-            PopulateHeroes();
-        }
+            string filePath = "screenshot";
+            ScreenCapturer.SaveBitmapToFilePng(ScreenCapturer.CaptureScreenBitmap(330, 150, 1050), filePath);
 
-        private void PopulateHeroes()
-        {
-            ScreenCapture.SaveBitmapToFilePng(ScreenCapture.CaptureScreenBitmap(), "screenshot");
-
-            var heroes = HeroProcessor.ProcessHeroes("screenshot.png");
+            var heroes = HeroProcessor.ProcessHeroes(filePath + ".png");
 
             foreach (var hero in heroes)
             {
-                HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(hero, new Models.Ultimate("death_ward", 100))));
+                HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(hero)));
             }
         }
     }
