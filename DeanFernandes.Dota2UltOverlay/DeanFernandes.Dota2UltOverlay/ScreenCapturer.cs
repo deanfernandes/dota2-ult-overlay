@@ -3,7 +3,7 @@ using System.Drawing.Imaging;
 
 namespace DeanFernandes.Dota2UltOverlay
 {
-    internal class ScreenCapture
+    internal class ScreenCapturer
     {
         static public Bitmap CaptureScreenBitmap()
         {
@@ -15,6 +15,18 @@ namespace DeanFernandes.Dota2UltOverlay
 
             return bitmap;
         }
+
+        static public Bitmap CaptureScreenBitmap(int width, int height, int x=0, int y=0)
+        {
+            Bitmap bitmap = new Bitmap(width, height, PixelFormat.Format32bppArgb);
+            using (Graphics g = Graphics.FromImage(bitmap))
+            {
+                g.CopyFromScreen(x, y, 0, 0, new Size(width, height), CopyPixelOperation.SourceCopy);
+            }
+
+            return bitmap;
+        }
+
         static public void SaveBitmapToFilePng(Bitmap bitmap, string filePath)
         {
             bitmap.Save(filePath+".png", ImageFormat.Png);
