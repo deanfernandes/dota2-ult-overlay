@@ -8,7 +8,7 @@ namespace DeanFernandes.Dota2UltOverlay
 {
     public static class ImageProcessor
     {
-        private const double MatchThreshold = .75, MinScale = .25, MaxScale = .5, ScaleStep = .25;
+        private const double MatchThreshold = .76, MinScale = .25, MaxScale = .5, ScaleStep = .25;
 
         private static readonly NLog.Logger Logger = NLog.LogManager.GetCurrentClassLogger();
         public static bool PerformTemplateMatch(string imagePath, string templatePath)
