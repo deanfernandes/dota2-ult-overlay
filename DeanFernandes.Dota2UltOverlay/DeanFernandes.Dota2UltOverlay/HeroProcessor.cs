@@ -7,18 +7,18 @@ namespace DeanFernandes.Dota2UltOverlay
 {
     public static class HeroProcessor
     {
-        private static readonly ILogger logger = LogManager.GetCurrentClassLogger();
+        private static readonly ILogger Logger = LogManager.GetCurrentClassLogger();
 
         public static List<string> ProcessHeroes(string heroesImagePath)
         {
 #if DEBUG
-            logger.Debug("function ProcessHeroes started");
+            Logger.Debug("function ProcessHeroes started");
             var stopwatch = Stopwatch.StartNew();
 #endif
 
             List<string> heroes = new List<string>();
 
-            string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), @"Resources\Images\Heroes\");
+            string directoryPath = Path.Combine(Directory.GetCurrentDirectory(), "Resources/Images/Heroes/");
             try
             {
                 foreach (string file in Directory.EnumerateFiles(directoryPath))
@@ -33,14 +33,14 @@ namespace DeanFernandes.Dota2UltOverlay
             }
             catch (DirectoryNotFoundException ex)
             {
-                logger.Error($"Directory not found: {ex.Message}");
+                Logger.Error($"Directory not found: {ex.Message}");
 
                 Debug.WriteLine($"Directory not found: {ex.Message}");
             }
 
 #if DEBUG
             stopwatch.Stop();
-            logger.Debug($"function ProcessHeroes finished: {stopwatch.ElapsedMilliseconds}ms");
+            Logger.Debug($"function ProcessHeroes finished: {stopwatch.ElapsedMilliseconds}ms");
 #endif
 
             return heroes;

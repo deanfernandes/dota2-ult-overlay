@@ -4,8 +4,8 @@ namespace DeanFernandes.Dota2UltOverlay
 {
     public class ImageManager
     {
-        const string HeroImageDir = "/Resources/Images/Heroes/";
-        const string HeroUltImageDir = "/Resources/Images/Ultimates/";
+        public const string HeroImageDir = "/Resources/Images/Heroes/";
+        public const string HeroUltImageDir = "/Resources/Images/Ultimates/";
 
         public static string GetHeroImagePath(string heroName)
         {

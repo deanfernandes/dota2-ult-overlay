@@ -1,11 +1,8 @@
-﻿using System.Timers;
-
-namespace DeanFernandes.Dota2UltOverlay.ViewModels
+﻿namespace DeanFernandes.Dota2UltOverlay.ViewModels
 {
     using Models;
     using System.ComponentModel;
     using System.Runtime.CompilerServices;
-    using System.Windows;
     using System.Windows.Input;
 
     class HeroUltViewModel : INotifyPropertyChanged

@@ -648,130 +648,372 @@
     <Content Include="Resources\Images\Heroes\zuus.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Resource Include="Resources\Images\Ultimates\abaddon_borrowed_time.png" />
-    <Resource Include="Resources\Images\Ultimates\abyssal_underlord_dark_portal.png" />
-    <Resource Include="Resources\Images\Ultimates\alchemist_chemical_rage.png" />
-    <Resource Include="Resources\Images\Ultimates\ancient_apparition_ice_blast.png" />
-    <Resource Include="Resources\Images\Ultimates\antimage_mana_void.png" />
-    <Resource Include="Resources\Images\Ultimates\arc_warden_tempest_double.png" />
-    <Resource Include="Resources\Images\Ultimates\axe_culling_blade.png" />
-    <Resource Include="Resources\Images\Ultimates\bane_nightmare.png" />
-    <Resource Include="Resources\Images\Ultimates\batrider_flaming_lasso.png" />
-    <Resource Include="Resources\Images\Ultimates\beastmaster_primal_roar.png" />
-    <Resource Include="Resources\Images\Ultimates\bloodseeker_rupture.png" />
-    <Resource Include="Resources\Images\Ultimates\bounty_hunter_track.png" />
-    <Resource Include="Resources\Images\Ultimates\brewmaster_primal_split.png" />
-    <Resource Include="Resources\Images\Ultimates\bristleback_warpath.png" />
-    <Resource Include="Resources\Images\Ultimates\broodmother_insatiable_hunger.png" />
-    <Resource Include="Resources\Images\Ultimates\centaur_stampede.png" />
-    <Resource Include="Resources\Images\Ultimates\chaos_knight_phantasm.png" />
-    <Resource Include="Resources\Images\Ultimates\chen_hand_of_god.png" />
-    <Resource Include="Resources\Images\Ultimates\clinkz_death_pact.png" />
-    <Resource Include="Resources\Images\Ultimates\crystal_maiden_freezing_field.png" />
-    <Resource Include="Resources\Images\Ultimates\dark_seer_wall_of_replica.png" />
-    <Resource Include="Resources\Images\Ultimates\dark_willow_terrorize.png" />
-    <Resource Include="Resources\Images\Ultimates\dawnbreaker_solar_guardian.png" />
-    <Resource Include="Resources\Images\Ultimates\dazzle_bad_juju.png" />
-    <Resource Include="Resources\Images\Ultimates\death_prophet_exorcism.png" />
-    <Resource Include="Resources\Images\Ultimates\disruptor_static_storm.png" />
-    <Resource Include="Resources\Images\Ultimates\doom_bringer_doom.png" />
-    <Resource Include="Resources\Images\Ultimates\dragon_knight_elder_dragon_form.png" />
-    <Resource Include="Resources\Images\Ultimates\drow_ranger_marksmanship.png" />
-    <Resource Include="Resources\Images\Ultimates\earthshaker_echo_slam.png" />
-    <Resource Include="Resources\Images\Ultimates\earth_spirit_magnetize.png" />
-    <Resource Include="Resources\Images\Ultimates\elder_titan_earth_splitter.png" />
-    <Resource Include="Resources\Images\Ultimates\ember_spirit_activate_fire_remnant.png" />
-    <Resource Include="Resources\Images\Ultimates\enchantress_untouchable.png" />
-    <Resource Include="Resources\Images\Ultimates\enigma_black_hole.png" />
-    <Resource Include="Resources\Images\Ultimates\faceless_void_chronosphere.png" />
-    <Resource Include="Resources\Images\Ultimates\furion_teleportation.png" />
-    <Resource Include="Resources\Images\Ultimates\grimstroke_soul_chain.png" />
-    <Resource Include="Resources\Images\Ultimates\gyrocopter_call_down.png" />
-    <Resource Include="Resources\Images\Ultimates\hoodwink_sharpshooter.png" />
-    <Resource Include="Resources\Images\Ultimates\huskar_life_break.png" />
-    <Resource Include="Resources\Images\Ultimates\invoker_invoke.png" />
-    <Resource Include="Resources\Images\Ultimates\jakiro_macropyre.png" />
-    <Resource Include="Resources\Images\Ultimates\juggernaut_omni_slash.png" />
-    <Resource Include="Resources\Images\Ultimates\keeper_of_the_light_spirit_form.png" />
-    <Resource Include="Resources\Images\Ultimates\kunkka_ghostship.png" />
-    <Resource Include="Resources\Images\Ultimates\legion_commander_duel.png" />
-    <Resource Include="Resources\Images\Ultimates\leshrac_pulse_nova.png" />
-    <Resource Include="Resources\Images\Ultimates\lich_chain_frost.png" />
-    <Resource Include="Resources\Images\Ultimates\life_stealer_infest.png" />
-    <Resource Include="Resources\Images\Ultimates\lina_laguna_blade.png" />
-    <Resource Include="Resources\Images\Ultimates\lion_finger_of_death.png" />
-    <Resource Include="Resources\Images\Ultimates\lone_druid_true_form.png" />
-    <Resource Include="Resources\Images\Ultimates\luna_eclipse.png" />
-    <Resource Include="Resources\Images\Ultimates\lycan_shapeshift.png" />
-    <Resource Include="Resources\Images\Ultimates\magnataur_reverse_polarity.png" />
-    <Resource Include="Resources\Images\Ultimates\marci_unleash.png" />
-    <Resource Include="Resources\Images\Ultimates\mars_arena_of_blood.png" />
-    <Resource Include="Resources\Images\Ultimates\medusa_stone_gaze.png" />
-    <Resource Include="Resources\Images\Ultimates\meepo_divided_we_stand.png" />
-    <Resource Include="Resources\Images\Ultimates\mirana_invis.png" />
-    <Resource Include="Resources\Images\Ultimates\monkey_king_wukongs_command.png" />
-    <Resource Include="Resources\Images\Ultimates\morphling_replicate.png" />
-    <Resource Include="Resources\Images\Ultimates\muerta_pierce_the_veil.png" />
-    <Resource Include="Resources\Images\Ultimates\naga_siren_song_of_the_siren.png" />
-    <Resource Include="Resources\Images\Ultimates\necrolyte_reapers_scythe.png" />
-    <Resource Include="Resources\Images\Ultimates\nevermore_requiem.png" />
-    <Resource Include="Resources\Images\Ultimates\night_stalker_darkness.png" />
-    <Resource Include="Resources\Images\Ultimates\nyx_assassin_vendetta.png" />
-    <Resource Include="Resources\Images\Ultimates\obsidian_destroyer_sanity_eclipse.png" />
-    <Resource Include="Resources\Images\Ultimates\ogre_magi_dumb_luck.png" />
-    <Resource Include="Resources\Images\Ultimates\omniknight_guardian_angel.png" />
-    <Resource Include="Resources\Images\Ultimates\oracle_false_promise.png" />
-    <Resource Include="Resources\Images\Ultimates\pangolier_gyroshell.png" />
-    <Resource Include="Resources\Images\Ultimates\phantom_assassin_coup_de_grace.png" />
-    <Resource Include="Resources\Images\Ultimates\phantom_lancer_juxtapose.png" />
-    <Resource Include="Resources\Images\Ultimates\phoenix_supernova.png" />
-    <Resource Include="Resources\Images\Ultimates\primal_beast_pulverize.png" />
-    <Resource Include="Resources\Images\Ultimates\puck_dream_coil.png" />
-    <Resource Include="Resources\Images\Ultimates\pudge_dismember.png" />
-    <Resource Include="Resources\Images\Ultimates\pugna_life_drain.png" />
-    <Resource Include="Resources\Images\Ultimates\queenofpain_sonic_wave.png" />
-    <Resource Include="Resources\Images\Ultimates\rattletrap_hookshot.png" />
-    <Resource Include="Resources\Images\Ultimates\razor_eye_of_the_storm.png" />
-    <Resource Include="Resources\Images\Ultimates\riki_backstab.png" />
-    <Resource Include="Resources\Images\Ultimates\rubick_spell_steal.png" />
-    <Resource Include="Resources\Images\Ultimates\sandking_epicenter.png" />
-    <Resource Include="Resources\Images\Ultimates\shadow_demon_demonic_purge.png" />
-    <Resource Include="Resources\Images\Ultimates\shadow_shaman_mass_serpent_ward.png" />
-    <Resource Include="Resources\Images\Ultimates\shredder_chakram.png" />
-    <Resource Include="Resources\Images\Ultimates\silencer_global_silence.png" />
-    <Resource Include="Resources\Images\Ultimates\skeleton_king_reincarnation.png" />
-    <Resource Include="Resources\Images\Ultimates\skywrath_mage_mystic_flare.png" />
-    <Resource Include="Resources\Images\Ultimates\slardar_amplify_damage.png" />
-    <Resource Include="Resources\Images\Ultimates\slark_shadow_dance.png" />
-    <Resource Include="Resources\Images\Ultimates\snapfire_mortimer_kisses.png" />
-    <Resource Include="Resources\Images\Ultimates\sniper_assassinate.png" />
-    <Resource Include="Resources\Images\Ultimates\spectre_haunt_single.png" />
-    <Resource Include="Resources\Images\Ultimates\spirit_breaker_nether_strike.png" />
-    <Resource Include="Resources\Images\Ultimates\storm_spirit_ball_lightning.png" />
-    <Resource Include="Resources\Images\Ultimates\sven_gods_strength.png" />
-    <Resource Include="Resources\Images\Ultimates\techies_land_mines.png" />
-    <Resource Include="Resources\Images\Ultimates\templar_assassin_psionic_trap.png" />
-    <Resource Include="Resources\Images\Ultimates\terrorblade_sunder.png" />
-    <Resource Include="Resources\Images\Ultimates\tidehunter_ravage.png" />
-    <Resource Include="Resources\Images\Ultimates\tinker_rearm.png" />
-    <Resource Include="Resources\Images\Ultimates\tiny_grow.png" />
-    <Resource Include="Resources\Images\Ultimates\treant_overgrowth.png" />
-    <Resource Include="Resources\Images\Ultimates\troll_warlord_battle_trance.png" />
-    <Resource Include="Resources\Images\Ultimates\tusk_walrus_punch.png" />
-    <Resource Include="Resources\Images\Ultimates\undying_flesh_golem.png" />
-    <Resource Include="Resources\Images\Ultimates\ursa_enrage.png" />
-    <Resource Include="Resources\Images\Ultimates\vengefulspirit_nether_swap.png" />
-    <Resource Include="Resources\Images\Ultimates\venomancer_noxious_plague.png" />
-    <Resource Include="Resources\Images\Ultimates\viper_viper_strike.png" />
-    <Resource Include="Resources\Images\Ultimates\visage_summon_familiars.png" />
-    <Resource Include="Resources\Images\Ultimates\void_spirit_astral_step.png" />
-    <Resource Include="Resources\Images\Ultimates\warlock_rain_of_chaos.png" />
-    <Resource Include="Resources\Images\Ultimates\weaver_time_lapse.png" />
-    <Resource Include="Resources\Images\Ultimates\windrunner_focusfire.png" />
-    <Resource Include="Resources\Images\Ultimates\winter_wyvern_winters_curse.png" />
-    <Resource Include="Resources\Images\Ultimates\wisp_relocate.png" />
-    <Resource Include="Resources\Images\Ultimates\witch_doctor_death_ward.png" />
-    <Resource Include="Resources\Images\Ultimates\zuus_thundergods_wrath.png" />
+    <Content Include="Resources\Images\Ultimates\abaddon_borrowed_time.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\abyssal_underlord_dark_portal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\alchemist_chemical_rage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\ancient_apparition_ice_blast.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\antimage_mana_void.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\arc_warden_tempest_double.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\axe_culling_blade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\bane_nightmare.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\batrider_flaming_lasso.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\beastmaster_primal_roar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\bloodseeker_rupture.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\bounty_hunter_track.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\brewmaster_primal_split.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\bristleback_warpath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\broodmother_insatiable_hunger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\centaur_stampede.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\chaos_knight_phantasm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\chen_hand_of_god.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\crystal_maiden_freezing_field.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\dark_seer_wall_of_replica.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\dark_willow_terrorize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\dawnbreaker_solar_guardian.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\dazzle_bad_juju.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\death_prophet_exorcism.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\disruptor_static_storm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\doom_bringer_doom.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\dragon_knight_elder_dragon_form.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\drow_ranger_marksmanship.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\earthshaker_echo_slam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\earth_spirit_magnetize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\elder_titan_earth_splitter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\ember_spirit_activate_fire_remnant.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\enchantress_untouchable.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\enigma_black_hole.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\faceless_void_chronosphere.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\grimstroke_soul_chain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\gyrocopter_call_down.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\hoodwink_sharpshooter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\huskar_life_break.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\invoker_invoke.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\jakiro_macropyre.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\juggernaut_omni_slash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\keeper_of_the_light_spirit_form.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\kunkka_ghostship.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\legion_commander_duel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\leshrac_pulse_nova.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\lich_chain_frost.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\life_stealer_infest.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\lina_laguna_blade.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\lion_finger_of_death.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\lone_druid_true_form.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\luna_eclipse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\lycan_shapeshift.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\magnataur_reverse_polarity.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\marci_unleash.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\mars_arena_of_blood.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\medusa_stone_gaze.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\meepo_divided_we_stand.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\mirana_invis.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\monkey_king_wukongs_command.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\morphling_replicate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\muerta_pierce_the_veil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\naga_siren_song_of_the_siren.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\necrolyte_reapers_scythe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\nevermore_requiem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\night_stalker_darkness.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\nyx_assassin_vendetta.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\obsidian_destroyer_sanity_eclipse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\ogre_magi_dumb_luck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\omniknight_guardian_angel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\oracle_false_promise.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\pangolier_gyroshell.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\phantom_assassin_coup_de_grace.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\phantom_lancer_juxtapose.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\phoenix_supernova.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\primal_beast_pulverize.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\puck_dream_coil.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\pudge_dismember.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\pugna_life_drain.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\queenofpain_sonic_wave.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\rattletrap_hookshot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\razor_eye_of_the_storm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\riki_backstab.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\rubick_spell_steal.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\sandking_epicenter.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\shadow_demon_demonic_purge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\shadow_shaman_mass_serpent_ward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\shredder_chakram.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\silencer_global_silence.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\skeleton_king_reincarnation.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\skywrath_mage_mystic_flare.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\slardar_amplify_damage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\slark_shadow_dance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\snapfire_mortimer_kisses.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\sniper_assassinate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\spectre_haunt_single.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\spirit_breaker_nether_strike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\storm_spirit_ball_lightning.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\sven_gods_strength.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\techies_land_mines.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\templar_assassin_psionic_trap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\terrorblade_sunder.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\tidehunter_ravage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\tinker_rearm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\tiny_grow.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\treant_overgrowth.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\troll_warlord_battle_trance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\tusk_walrus_punch.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\undying_flesh_golem.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\ursa_enrage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\vengefulspirit_nether_swap.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\venomancer_noxious_plague.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\viper_viper_strike.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\visage_summon_familiars.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\void_spirit_astral_step.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\warlock_rain_of_chaos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\weaver_time_lapse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\windrunner_focusfire.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\winter_wyvern_winters_curse.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\wisp_relocate.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\witch_doctor_death_ward.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\zuus_thundergods_wrath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

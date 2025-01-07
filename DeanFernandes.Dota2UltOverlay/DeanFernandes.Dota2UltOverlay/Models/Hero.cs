@@ -14,7 +14,7 @@ namespace DeanFernandes.Dota2UltOverlay.Models
         {
             Name = name;
 
-            Ult = new Ultimate(GetUltimateName(Name), 0);
+            Ult = new Ultimate(GetUltimateName(Name));
         }
 
         static string GetUltimateName(string heroName)
