@@ -1,13 +1,13 @@
 ﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using System.Windows.Threading;
+using System.Timers;
 
 namespace DeanFernandes.Dota2UltOverlay.Models
 {
     class UltimateTimer : INotifyPropertyChanged
     {
         private int _cooldownDuration;
-        private DispatcherTimer _timer;
+        private System.Timers.Timer _timer;
         private int _timeRemaining;
 
         public delegate void TimerStoppedEventHandler(object? sender, EventArgs e);
@@ -23,11 +23,11 @@ namespace DeanFernandes.Dota2UltOverlay.Models
         {
             _cooldownDuration = cooldownDuration;
 
-            _timer = new DispatcherTimer();// TODO: use diff timer (misuse?)
-            _timer.Interval = TimeSpan.FromSeconds(1);
-            _timer.Tick += Timer_Tick;
+            _timer = new System.Timers.Timer(1000);
+            _timer.Elapsed += OnTimerElapsed;
+            _timer.AutoReset = true;
         }
-        private void Timer_Tick(object? sender, EventArgs e)
+        private void OnTimerElapsed(object? sender, ElapsedEventArgs e)
         {
             TimeRemaining--;
 
