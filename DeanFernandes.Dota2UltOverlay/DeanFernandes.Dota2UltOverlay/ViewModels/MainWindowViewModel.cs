@@ -39,7 +39,11 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
             var heroes = HeroProcessor.ProcessHeroes(filePath + ".png");
             foreach (var hero in heroes)
             {
-                HeroViewModels.Add(new HeroViewModel(new Models.Hero(hero)));
+                var h = new Models.Hero(hero);
+                if (h.Ultimate.CooldownDurationSeconds > 0)
+                {
+                    HeroViewModels.Add(new HeroViewModel(h));
+                }
             }
         }
     }
