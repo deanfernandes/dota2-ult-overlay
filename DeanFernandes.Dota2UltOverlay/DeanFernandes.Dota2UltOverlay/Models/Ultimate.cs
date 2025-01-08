@@ -3,9 +3,9 @@
     class Ultimate
     {
         public string Name { get; set; }
+        public string UltImagePath { get; set; }
         public int CooldownDurationSeconds { get; set; }
-        public UltimateTimer Timer { get; set; }
-
+        
         private static readonly Dictionary<string, int> _cooldowns = new Dictionary<string, int>
         {
             { "borrowed_time", 90 },
@@ -133,11 +133,12 @@
             { "death_ward", 100 },
             { "thundergods_wrath", 130 },
         };
+        public UltimateTimer Timer { get; set; }
 
         public Ultimate(string name)
         {
             Name = name;
-
+            UltImagePath = ImageManager.MakeImagePathApplicationRelative(ImageManager.GetUltimateImagePath(Name));
             if (_cooldowns.TryGetValue(name, out int cooldownDurationSeconds))
             {
                 CooldownDurationSeconds = cooldownDurationSeconds;

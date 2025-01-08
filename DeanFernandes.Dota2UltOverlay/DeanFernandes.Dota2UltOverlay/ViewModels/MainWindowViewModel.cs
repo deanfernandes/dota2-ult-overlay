@@ -37,7 +37,6 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
             ScreenCapturer.SaveBitmapToFilePng(ScreenCapturer.CaptureScreenBitmap(330, 150, 1050), filePath);
 
             var heroes = HeroProcessor.ProcessHeroes(filePath + ".png");
-
             foreach (var hero in heroes)
             {
                 HeroViewModels.Add(new HeroViewModel(new Models.Hero(hero)));

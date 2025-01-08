@@ -18,14 +18,10 @@
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
 
-        <Image Source="{Binding HeroImagePath}" Width="128" Height="72" Margin="0 0 10 0"/>
+        <Image Source="{Binding Hero.HeroImagePath}" Width="128" Height="72" Margin="0 0 10 0"/>
 
-        <Image Name="UltImage" Grid.Column="1" Source="{Binding UltImagePath}" IsEnabled="{Binding OnCooldown, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave" MouseLeftButtonDown="UltImage_MouseLeftButtonDown" Cursor="Hand"/>
-        <Rectangle Name="UltRectangle" Grid.Column="1" Opacity="0.7" Visibility="Collapsed" IsHitTestVisible="False" Width="{Binding ActualWidth, ElementName=UltImage}" Height="{Binding ActualHeight, ElementName=UltImage}">
-            <Rectangle.Fill>
-                <SolidColorBrush Color="Black"/>
-            </Rectangle.Fill>
-        </Rectangle>
-        <Label Grid.Column="1" Content="{Binding Hero.Ult.Timer.TimeRemaining}" Visibility="{Binding OnCooldown, Converter={StaticResource BoolVisibilityConverter}}"  VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="White"/>
+        <Image Name="UltImage" Grid.Column="1" Source="{Binding Hero.Ultimate.UltImagePath}" IsEnabled="{Binding Hero.Ultimate.Timer.IsEnabled, Converter={StaticResource BooleanInverterConverter}}" Width="50" Height="50" MouseEnter="UltImage_MouseEnter" MouseLeave="UltImage_MouseLeave" MouseLeftButtonDown="UltImage_MouseLeftButtonDown" Cursor="Hand"/>
+        <Rectangle Name="UltRectangle" Grid.Column="1" Opacity="0.7" Visibility="Collapsed" IsHitTestVisible="False" Width="{Binding ActualWidth, ElementName=UltImage}" Height="{Binding ActualHeight, ElementName=UltImage}" Fill="Black"/>
+        <Label Grid.Column="1" Content="{Binding Hero.Ultimate.Timer.TimeRemaining}" Visibility="{Binding Hero.Ultimate.Timer.IsEnabled, Converter={StaticResource BoolVisibilityConverter}}" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="22" Foreground="White"/>
     </Grid>
 </UserControl>

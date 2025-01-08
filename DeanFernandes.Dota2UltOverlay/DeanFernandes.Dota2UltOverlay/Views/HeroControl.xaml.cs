@@ -1,19 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
-using DeanFernandes.Dota2UltOverlay.Models;
-using DeanFernandes.Dota2UltOverlay.ViewModels;
 
 namespace DeanFernandes.Dota2UltOverlay.Views
 {
@@ -39,9 +26,10 @@ namespace DeanFernandes.Dota2UltOverlay.Views
 
         private void UltImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (DataContext is ViewModels.HeroViewModel viewModel && viewModel.StartCooldownCommand.CanExecute(null))
+            //TODO: refactor? (law of demeter)
+            if (DataContext is ViewModels.HeroViewModel viewModel && viewModel.Hero.Ultimate.Timer.StartTimerCommand.CanExecute(null))
             {
-                viewModel.StartCooldownCommand.Execute(null);
+                viewModel.Hero.Ultimate.Timer.StartTimerCommand.Execute(null);
             }
         }
     }
