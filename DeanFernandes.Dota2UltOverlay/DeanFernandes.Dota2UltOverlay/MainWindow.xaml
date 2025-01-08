@@ -8,10 +8,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Topmost="True" WindowStyle="None" SizeToContent="WidthAndHeight" Background="Transparent" AllowsTransparency="True">
     <Grid>
-        <ItemsControl ItemsSource="{Binding HeroUltViewModels}">
+        <ItemsControl ItemsSource="{Binding HeroViewModels}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
-                    <views:HeroUltControl Margin="0 10 0 0"/>
+                    <views:HeroControl Margin="0 10 0 0"/>
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>

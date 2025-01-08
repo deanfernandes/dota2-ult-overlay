@@ -1,5 +1,4 @@
-﻿using DeanFernandes.Dota2UltOverlay.Models;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
@@ -13,26 +12,26 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        private ObservableCollection<HeroUltViewModel> _heroUltViewModels;
-        public ObservableCollection<HeroUltViewModel> HeroUltViewModels
+        private ObservableCollection<HeroViewModel> _heroViewModels;
+        public ObservableCollection<HeroViewModel> HeroViewModels
         {
             get
             {
-                return _heroUltViewModels;
+                return _heroViewModels;
             }
             set
             {
-                if (_heroUltViewModels != value)
+                if (_heroViewModels != value)
                 {
-                    _heroUltViewModels = value;
-                    NotifyPropertyChanged(nameof(HeroUltViewModels));
+                    _heroViewModels = value;
+                    NotifyPropertyChanged(nameof(HeroViewModels));
                 }
             }
         }
 
         public MainWindowViewModel()
         {
-            _heroUltViewModels = new ObservableCollection<HeroUltViewModel>();
+            _heroViewModels = new ObservableCollection<HeroViewModel>();
 
             string filePath = "screenshot";
             ScreenCapturer.SaveBitmapToFilePng(ScreenCapturer.CaptureScreenBitmap(330, 150, 1050), filePath);
@@ -41,7 +40,7 @@ namespace DeanFernandes.Dota2UltOverlay.ViewModels
 
             foreach (var hero in heroes)
             {
-                HeroUltViewModels.Add(new HeroUltViewModel(new Models.Hero(hero)));
+                HeroViewModels.Add(new HeroViewModel(new Models.Hero(hero)));
             }
         }
     }

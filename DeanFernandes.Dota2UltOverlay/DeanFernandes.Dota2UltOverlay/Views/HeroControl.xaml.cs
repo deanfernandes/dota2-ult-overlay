@@ -18,11 +18,11 @@ using DeanFernandes.Dota2UltOverlay.ViewModels;
 namespace DeanFernandes.Dota2UltOverlay.Views
 {
     /// <summary>
-    /// Interaction logic for HeroUltControl.xaml
+    /// Interaction logic for HeroControl.xaml
     /// </summary>
-    public partial class HeroUltControl : UserControl
+    public partial class HeroControl : UserControl
     {
-        public HeroUltControl()
+        public HeroControl()
         {
             InitializeComponent();
         }
@@ -39,7 +39,7 @@ namespace DeanFernandes.Dota2UltOverlay.Views
 
         private void UltImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (DataContext is ViewModels.HeroUltViewModel viewModel && viewModel.StartCooldownCommand.CanExecute(null))
+            if (DataContext is ViewModels.HeroViewModel viewModel && viewModel.StartCooldownCommand.CanExecute(null))
             {
                 viewModel.StartCooldownCommand.Execute(null);
             }

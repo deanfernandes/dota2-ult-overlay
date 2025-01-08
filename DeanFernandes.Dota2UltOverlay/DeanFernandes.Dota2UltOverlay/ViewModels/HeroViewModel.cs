@@ -5,7 +5,7 @@
     using System.Runtime.CompilerServices;
     using System.Windows.Input;
 
-    class HeroUltViewModel : INotifyPropertyChanged
+    class HeroViewModel : INotifyPropertyChanged
     {
         public Hero Hero { get; set; }
         public string HeroImagePath { get; set; }
@@ -36,9 +36,10 @@
 
         public ICommand StartCooldownCommand { get; }
 
-        public HeroUltViewModel(Hero hero)
+        public HeroViewModel(Hero hero)
         {
             Hero = hero;
+            //hero.UseUltimate()
             //TODO: refactor (goes against demeter's law)
             Hero.Ult.Timer.TimerStopped += TimerStoppedHandler;
 
@@ -56,6 +57,7 @@
 
         private bool CanStartCooldown()
         {
+            //Hero.isultoncooldown()?
             return !OnCooldown;
         }
 
