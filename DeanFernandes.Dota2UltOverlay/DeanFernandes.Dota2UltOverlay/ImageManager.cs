@@ -10,6 +10,11 @@ namespace DeanFernandes.Dota2UltOverlay
 
         public static string GetHeroImagePath(string heroName)
         {
+            if(string.IsNullOrEmpty(heroName))
+            {
+                throw new ArgumentException();
+            }
+
             StringBuilder builder = new StringBuilder();
             builder.Append(HeroImageDir);
             builder.Append(heroName.ToLower());
@@ -19,6 +24,11 @@ namespace DeanFernandes.Dota2UltOverlay
 
         public static string GetUltimateImagePath(string ultName)
         {
+            if (string.IsNullOrEmpty(ultName))
+            {
+                throw new ArgumentException();
+            }
+
             //assume only 1 ult file for each hero in dir
             StringBuilder builder = new StringBuilder();
             builder.Append(UltImageDir);
@@ -35,6 +45,11 @@ namespace DeanFernandes.Dota2UltOverlay
 
         public static string GetHeroUltimateImagePath(string heroName, string ultName)
         {
+            if (string.IsNullOrEmpty(heroName) || string.IsNullOrEmpty(ultName))
+            {
+                throw new ArgumentException();
+            }
+
             StringBuilder builder = new StringBuilder();
             builder.Append(UltImageDir);
             builder.Append(heroName.ToLower());

@@ -10,7 +10,7 @@
             string imagePath = @"Resources\Images\Heroes\abaddon.png";
 
             //Act
-            bool match = ImageProcessor.PerformTemplateMatch(imagePath, imagePath);
+            bool match = ImageProcessor.PerformTemplateMatchNoScaling(imagePath, imagePath);
 
             //Assert
             Assert.IsTrue(match);

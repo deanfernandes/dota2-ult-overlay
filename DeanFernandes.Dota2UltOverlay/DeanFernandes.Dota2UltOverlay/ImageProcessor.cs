@@ -44,6 +44,30 @@ namespace DeanFernandes.Dota2UltOverlay
             return false;
         }
 
+        public static bool PerformTemplateMatchNoScaling(string imagePath, string templatePath)
+        {
+            using Mat image = CvInvoke.Imread(imagePath, ImreadModes.Color);
+            using Mat template = CvInvoke.Imread(templatePath, ImreadModes.Color);
+
+            Mat result = new Mat();
+            CvInvoke.MatchTemplate(image, template, result, TemplateMatchingType.CcoeffNormed);
+
+            double minVal = 0D, maxVal = 0D;
+            Point minLoc = default, maxLoc = default;
+            CvInvoke.MinMaxLoc(result, ref minVal, ref maxVal, ref minLoc, ref maxLoc);
+
+            if (maxVal >= MatchThreshold)
+            {
+                Logger.Info($"match: {Path.GetFileName(templatePath)}, confidence: {maxVal}");
+
+                Debug.WriteLine($"match: {Path.GetFileName(templatePath)}, confidence: {maxVal}");
+
+                return true;
+            }
+
+            return false;
+        }
+
         private static void Preprocess(ref Mat image, ref Mat template)
         {
             CvInvoke.CvtColor(image, image, ColorConversion.Bgr2Gray);

@@ -67,7 +67,7 @@
 
             //Assert
             Assert.IsFalse(string.IsNullOrEmpty(heroUltimateImagePath));
-            Assert.IsTrue(heroUltimateImagePath.Equals("/Resources/Images/Ultimates/bane_nightmare.png"));
+            Assert.IsTrue(heroUltimateImagePath.Equals("Resources/Images/Ultimates/bane_nightmare.png"));
         }
 
         [TestMethod]
