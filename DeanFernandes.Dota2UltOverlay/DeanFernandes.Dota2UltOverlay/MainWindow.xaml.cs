@@ -24,12 +24,13 @@ namespace DeanFernandes.Dota2UltOverlay
         private void PositionWindowRightCenter(double width, double height)
         {
             const double LeftOffset = 75d;
+            const double TopOffset = 225;
 
             double screenWidth = SystemParameters.PrimaryScreenWidth;
             double screenHeight = SystemParameters.PrimaryScreenHeight;
 
             this.Left = screenWidth - width - LeftOffset;
-            this.Top = (screenHeight - height) / 2; // center vertically
+            this.Top = ((screenHeight - height) / 2) - TopOffset; // center vertically
         }
     }
 }
