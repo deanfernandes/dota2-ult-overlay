@@ -14,16 +14,6 @@ namespace DeanFernandes.Dota2UltOverlay.Views
             InitializeComponent();
         }
 
-        private void UltImage_MouseEnter(object sender, MouseEventArgs e)
-        {
-            UltRectangle.Visibility = Visibility.Visible;
-        }
-
-        private void UltImage_MouseLeave(object sender, MouseEventArgs e)
-        {
-            UltRectangle.Visibility = Visibility.Collapsed;
-        }
-
         private void UltImage_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
             //TODO: refactor? (law of demeter)
