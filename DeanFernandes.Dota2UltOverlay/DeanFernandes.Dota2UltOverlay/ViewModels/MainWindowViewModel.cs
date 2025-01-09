@@ -1,4 +1,5 @@
-﻿using System.Collections.ObjectModel;
+﻿using DeanFernandes.Dota2UltOverlay.Models;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 

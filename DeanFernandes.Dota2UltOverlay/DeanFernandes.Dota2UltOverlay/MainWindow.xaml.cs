@@ -1,8 +1,4 @@
-﻿using Emgu.CV.Features2D;
-using System.Diagnostics;
-using System.IO;
-using System.Windows;
-using static Emgu.CV.OCR.Tesseract;
+﻿using System.Windows;
 
 namespace DeanFernandes.Dota2UltOverlay
 {
@@ -16,6 +12,25 @@ namespace DeanFernandes.Dota2UltOverlay
             InitializeComponent();
 
             DataContext = new ViewModels.MainWindowViewModel();
+
+            SizeChanged += OnSizeChanged;
+        }
+
+        private void OnSizeChanged(object sender, SizeChangedEventArgs e)
+        {
+            PositionWindowRightCenter(e.NewSize.Width, e.NewSize.Height);
+        }
+
+        private void PositionWindowRightCenter(double width, double height)
+        {
+            const double LeftOffset = 75d;
+            const double TopOffset = 225;
+
+            double screenWidth = SystemParameters.PrimaryScreenWidth;
+            double screenHeight = SystemParameters.PrimaryScreenHeight;
+
+            this.Left = screenWidth - width - LeftOffset;
+            this.Top = ((screenHeight - height) / 2) - TopOffset; // center vertically
         }
     }
 }
