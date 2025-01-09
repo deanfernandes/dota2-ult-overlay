@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DeanFernandes.Dota2UltOverlay"
         xmlns:views="clr-namespace:DeanFernandes.Dota2UltOverlay.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Topmost="True" WindowStyle="None" SizeToContent="WidthAndHeight" Background="Transparent" AllowsTransparency="True">
+        Title="MainWindow" Topmost="True" WindowStyle="None" SizeToContent="WidthAndHeight" Background="Transparent" AllowsTransparency="True" ResizeMode="NoResize">
     <Grid>
         <ItemsControl ItemsSource="{Binding HeroViewModels}">
             <ItemsControl.ItemTemplate>
