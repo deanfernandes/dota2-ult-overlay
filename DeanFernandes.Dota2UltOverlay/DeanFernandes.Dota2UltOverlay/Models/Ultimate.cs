@@ -132,6 +132,8 @@
             { "relocate", 100 },
             { "death_ward", 100 },
             { "thundergods_wrath", 130 },
+            { "wheel", 90 },
+            { "raptor_dance", 40 }
         };
         public UltimateTimer Timer { get; set; }
 
