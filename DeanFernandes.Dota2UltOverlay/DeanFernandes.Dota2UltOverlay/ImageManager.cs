@@ -32,7 +32,9 @@ namespace DeanFernandes.Dota2UltOverlay
             //assume only 1 ult file for each hero in dir
             StringBuilder builder = new StringBuilder();
             builder.Append(UltImageDir);
-            builder.Append(Directory.GetFiles(UltImageDir).Select(Path.GetFileName).FirstOrDefault(fileName => fileName.Contains(ultName, StringComparison.OrdinalIgnoreCase)));
+            builder.Append(Directory.GetFiles(UltImageDir)
+                .Select(Path.GetFileName)
+                .FirstOrDefault(fileName => fileName != null && fileName.Contains(ultName, StringComparison.OrdinalIgnoreCase)));
             return builder.ToString();
         }
 
