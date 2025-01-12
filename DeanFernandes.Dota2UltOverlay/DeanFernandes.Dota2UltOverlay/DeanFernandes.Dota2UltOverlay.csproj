@@ -57,6 +57,7 @@
     <None Remove="Resources\Images\Heroes\jakiro.png" />
     <None Remove="Resources\Images\Heroes\juggernaut.png" />
     <None Remove="Resources\Images\Heroes\keeper_of_the_light.png" />
+    <None Remove="Resources\Images\Heroes\kez.png" />
     <None Remove="Resources\Images\Heroes\kunkka.png" />
     <None Remove="Resources\Images\Heroes\legion_commander.png" />
     <None Remove="Resources\Images\Heroes\leshrac.png" />
@@ -97,6 +98,7 @@
     <None Remove="Resources\Images\Heroes\rattletrap.png" />
     <None Remove="Resources\Images\Heroes\razor.png" />
     <None Remove="Resources\Images\Heroes\riki.png" />
+    <None Remove="Resources\Images\Heroes\ringmaster.png" />
     <None Remove="Resources\Images\Heroes\rubick.png" />
     <None Remove="Resources\Images\Heroes\sand_king.png" />
     <None Remove="Resources\Images\Heroes\shadow_demon.png" />
@@ -181,6 +183,7 @@
     <None Remove="Resources\Images\Ultimates\jakiro_macropyre.png" />
     <None Remove="Resources\Images\Ultimates\juggernaut_omni_slash.png" />
     <None Remove="Resources\Images\Ultimates\keeper_of_the_light_spirit_form.png" />
+    <None Remove="Resources\Images\Ultimates\kez_raptor_dance.png" />
     <None Remove="Resources\Images\Ultimates\kunkka_ghostship.png" />
     <None Remove="Resources\Images\Ultimates\legion_commander_duel.png" />
     <None Remove="Resources\Images\Ultimates\leshrac_pulse_nova.png" />
@@ -221,6 +224,7 @@
     <None Remove="Resources\Images\Ultimates\rattletrap_hookshot.png" />
     <None Remove="Resources\Images\Ultimates\razor_eye_of_the_storm.png" />
     <None Remove="Resources\Images\Ultimates\riki_backstab.png" />
+    <None Remove="Resources\Images\Ultimates\ringmaster_wheel.png" />
     <None Remove="Resources\Images\Ultimates\rubick_spell_steal.png" />
     <None Remove="Resources\Images\Ultimates\sandking_epicenter.png" />
     <None Remove="Resources\Images\Ultimates\shadow_demon_demonic_purge.png" />
@@ -264,6 +268,18 @@
 
   <ItemGroup>
     <Content Include="Resources\icon.ico" />
+    <Content Include="Resources\Images\Heroes\kez.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Heroes\ringmaster.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\kez_raptor_dance.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\Images\Ultimates\ringmaster_wheel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
