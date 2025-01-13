@@ -10,6 +10,11 @@
     <ApplicationIcon>Resources\icon.ico</ApplicationIcon>
   </PropertyGroup>
 
+    <PropertyGroup>
+	    <VersionPrefix>1.0.0</VersionPrefix>
+	    <VersionSuffix>beta</VersionSuffix>
+    </PropertyGroup>
+
   <ItemGroup>
     <None Remove="C:\Users\work\.nuget\packages\nlog.config\4.7.15\contentFiles\any\any\NLog.config" />
     <None Remove="Resources\Images\Heroes\abaddon.png" />
