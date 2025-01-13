@@ -1,4 +1,9 @@
 # dota2-ult-overlay
+Track Hero Ultimate cooldowns for your opponents.
+## In-game screenshots
+![screenshot 1](docs/screenshot1.png)
+![screenshot 2](docs/screenshot2.png)
+![screenshot 3](docs/screenshot3.png)
 ## Add new hero
 1. Download Hero and Ultimate images from official dota website (**Dont rename files**)\
    e.g. https://www.dota2.com/hero/ringmaster
